@@ -1,9 +1,9 @@
 import './App.css';
-import VerifyOtp from './page/VerifyOtp';
+import Home from './page/Home';
 function App() {
   return (
     <div className="container-fluid p-0 m-0" >
-<VerifyOtp />
+<Home />
 
 
 </div>
