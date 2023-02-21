@@ -1,12 +1,13 @@
 import React from 'react'
-import bgImg from '../assets/bg image.png';
+import bgImg1 from '../assets/mountain.png';
 import Navbar from './Navbar';
+import HomeForm from './HomeForm'
 
 function LandingDiv() {
   return (
-    <div className='container-fluid bg-dark' style={{height:'80vh',backgroundImage:`url(${bgImg})`}}>
-        <Navbar />
-
+    <div className='container-fluid' style={{height:'80vh', backgroundImage:`url(${bgImg1})`,backgroundRepeat:'no-repeat',backgroundPosition:'top'}}>
+        <Navbar /><br />
+<HomeForm/>
     </div>
   )
 }

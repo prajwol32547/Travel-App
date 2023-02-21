@@ -1,8 +1,9 @@
 import React from 'react';
 import TextField from '../Atom/TextField';
+import {Link} from 'react-router-dom';
 function RegisterFormInner() {
   return (
-    <div className='container mt-2 bg-light' style={{maxWidth:'400px'}}>
+    <div className='container bg-light' style={{maxWidth:'400px'}}>
         <div className="row">
             <div className="col-md-6"> 
 <TextField title="First Name" type="text" place="Enter your first name" />
@@ -18,7 +19,7 @@ function RegisterFormInner() {
 <TextField title="Re-Password" type="password" place="Enter your password again" />
 
 <button className='btn-lg btn-success text-center text-light w-100 mt-2'>Create Account</button>
-<p className='mt-2 text-center'>Already have account? <a href="#">Login</a></p>
+<p className='mt-2 text-center'>Already have account? <Link to='/login'> Login</Link></p>
 </div>
   )
 }
