@@ -30,7 +30,7 @@ function CatalgueInner() {
                         <button className='btn-md text-center'data-toggle="collapse" data-target="#Util" aria-expanded="false" aria-controls="Util" onClick={()=>setWeat('weather')}>Temp</button>
                     </div>
             <div className="col-md-6">
-            <button className='btn-md text-center' onClick={()=>setWeat('filter')}>Filter</button>
+            <button className='btn-md text-center'data-toggle="collapse" data-target="#Util" aria-expanded="false" aria-controls="Util" onClick={()=>setWeat('filter')}>Filter</button>
 
             </div>
 

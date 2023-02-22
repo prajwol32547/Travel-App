@@ -8,7 +8,7 @@ import CatalgueInner from '../component/CatalgueInner'
 function Catalogue() {
   return (
     <div className="container-fluid m-0 p-0">
-        <div className="container-fluid bg-success p-0"  >
+        <div className="container-fluid bg-success m-0 p-0">
             <Navbar />
            
             <form className='form-group mx-auto' style={{maxWidth:'400px',marginBottom:'20px'}}>
