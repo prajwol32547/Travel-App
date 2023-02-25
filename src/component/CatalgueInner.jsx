@@ -30,7 +30,7 @@ function CatalgueInner() {
                         <button className='btn-md text-center'data-toggle="collapse" data-target="#Util" aria-expanded="false" aria-controls="Util" onClick={()=>setWeat('weather')}>Temp</button>
                     </div>
             <div className="col-md-6">
-            <button className='btn-md text-center'data-toggle="collapse" data-target="#Util" aria-expanded="false" aria-controls="Util" onClick={()=>setWeat('filter')}>Filter</button>
+            <button className='btn-md text-center'data-toggle="collapse" data-target="#Util2" aria-expanded="false" aria-controls="Util2" onClick={()=>setWeat('filter')}>Filter</button>
 
             </div>
 
@@ -45,9 +45,12 @@ function CatalgueInner() {
             <div className="col-md-8">
             {cat==='hotel'?<HotelList />:<CarList />}
             </div>
-            <div className="collapse col-md-4" id="Util" >
-             {weat==='weather'?<Weather />:<Filter />}
-            </div>
+            {weat=='weather'?
+            <div className="collapse d-md-block col-md-4" id="Util" >
+            <Weather />
+            </div>:<div className="collapse d-md-block col-md-4" id="Util2" >
+            <Filter />
+            </div>}
         
         </div>
    </>

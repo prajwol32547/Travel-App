@@ -5,6 +5,12 @@ import Register from './page/Register';
 
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Catalogue from './page/Catalogue';
+import Display from './page/Display';
+import VerifyOtp from './page/VerifyOtp';
+import Add from './page/Add';
+
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +20,12 @@ function App() {
 <Route path='/login' element={<Login/>}/>
 <Route path='/register' element={<Register/>}/>
 <Route path='/catalogue' element={<Catalogue/>}/>
+<Route path='/display' element={<Display/>}/>
+<Route path='/verifyOtp' element={<VerifyOtp/>}/>
+<Route path='/add' element={<Add/>}/>
+
+
+
 
 
 
