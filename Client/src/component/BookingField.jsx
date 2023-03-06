@@ -1,0 +1,36 @@
+import React from 'react'
+
+function BookingField() {
+  return (
+    < div className='bg-light p-3'>
+    <div className='d-flex flex-column flex-md-row justify-content-around mt-4'>
+      <div>
+        <label htmlFor="">From</label><br />
+      <input type="date" id="from_book" placeholder="date"/>
+      </div>
+<div>
+<label htmlFor="">To</label><br />
+<input type="date" id="to_book" placeholder="date"/>
+</div>
+
+<div>
+  <label htmlFor="">Select Room</label><br />
+<select className="custom-select" style={{maxWidth:'300px'}}>
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+</div>
+</div>
+
+
+   
+    <div className="container text-center mt-5">
+    <input type='button' className='btn-success btn-md text-white text-center' value="Book Now"/>
+   </div>
+    </div>
+  )
+}
+
+export default BookingField
