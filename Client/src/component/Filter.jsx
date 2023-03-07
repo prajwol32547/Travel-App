@@ -1,12 +1,19 @@
 import React,{useState} from 'react'
 
 function Filter() {
+  
   const [rangeValue, setRangeValue] = useState(5000);
 
   const handleRangeChange = (event) => {
     setRangeValue(event.target.value);
+   
   };
+  const filterChoice=(e)=>{
+    e.preventDefault();
+    localStorage.setItem('price',rangeValue);
+  }
   return (
+   
     <form className='container form-group'>
 <div className="d-flex flex-column justify-content-around">
 
@@ -73,9 +80,10 @@ function Filter() {
  </div>
   </section>
   <br />
-  <input type="button" className='btn-success w-100 btn-lg' value="Apply Filter"/>
+  <input type="button" onClick={filterChoice} className='btn-success w-100 btn-lg' value="Apply Filter"/>
 </div>
     </form>
+ 
   )
 }
 
