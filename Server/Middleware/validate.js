@@ -38,10 +38,11 @@ export const validateLogin=async(req,res,next)=>{
 const{email,password}=req.body;
 try{
 const LoginStatus = await userLoginService(email, password);
-if(LoginStatus===200){
-    res.status(200).send("Login Succesful");
+if(LoginStatus.status==="200"){
+  Logger.info(LoginStatus.token);
+    res.status(200).send(LoginStatus.token);
 }
-else if(LoginStatus===400){
+else if(LoginStatus.status===400){
     res.status(400).send("Login problem, please try again later");
 }
 }catch(err){

@@ -7,11 +7,12 @@ function HotelList() {
 
   const navigate= useNavigate();
   const [dataVal,setDataVal] =useState([]);
+  const [price,setPrice]=useState();
   const handleDisplay=(data)=>{
 setDataVal([
  data
-
 ]);
+
 navigate('/display');
   }
   return (

@@ -3,6 +3,9 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { Database } from "../Database/database.js";
 import Logger from "../Controller/Logger.js";
+const Accesskey="SecretAccessKey";
+const RefreshKey="SecretRefreshKey";
+
 
 export const userRegisterService = async (fname, lname, email, password) => {
   return new Promise((resolve, reject) => {
@@ -42,11 +45,20 @@ Database.query(q1,(err,res)=>{
     else{
         Logger.info(res[0].password);
         if(res[0].password===password){
-            resolve(200);
+         const user={
+          email:email,
+          firstName:res[0].firstName
+         }
+         Logger.info(user.email);
+       const accessToken=jwt.sign(user,Accesskey);
+       if(accessToken==undefined){
+        reject();
+       }
+            resolve ({"status":"200","token": accessToken});
         }
         else{
             Logger.error("does not matches");
-            return 400;
+            return {status:200};
         }
     }
 })

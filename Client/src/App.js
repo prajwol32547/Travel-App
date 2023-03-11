@@ -8,6 +8,8 @@ import Catalogue from './page/Catalogue';
 import Display from './page/Display';
 import VerifyOtp from './page/VerifyOtp';
 import Add from './page/Add';
+import Admin from './page/Admin';
+
 
 
 
@@ -23,6 +25,8 @@ function App() {
 <Route path='/display' element={<Display/>}/>
 <Route path='/verifyOtp' element={<VerifyOtp/>}/>
 <Route path='/add' element={<Add/>}/>
+<Route path='/admin' element={<Admin/>}/>
+
 
 
 

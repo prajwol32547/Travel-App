@@ -344,3 +344,92 @@
 {"level":"info","message":"connected to db","timestamp":"2023-03-06T16:49:05.877Z"}
 {"level":"info","message":"running at 4000","timestamp":"2023-03-06T16:49:44.175Z"}
 {"level":"info","message":"connected to db","timestamp":"2023-03-06T16:49:44.187Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-10T15:57:10.242Z"}
+{"level":"error","message":"Error connecting to database","timestamp":"2023-03-10T15:57:10.252Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T06:56:30.351Z"}
+{"level":"error","message":"Error connecting to database","timestamp":"2023-03-11T06:56:30.359Z"}
+{"level":"error","message":"Fetching error","timestamp":"2023-03-11T06:58:10.331Z"}
+{"level":"error","message":"Fetching error","timestamp":"2023-03-11T06:58:55.097Z"}
+{"level":"error","message":"Fetching error","timestamp":"2023-03-11T06:58:57.806Z"}
+{"level":"error","message":"Fetching error","timestamp":"2023-03-11T06:59:02.194Z"}
+{"level":"error","message":"Fetching error","timestamp":"2023-03-11T06:59:02.428Z"}
+{"level":"error","message":"Fetching error","timestamp":"2023-03-11T06:59:02.595Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T06:59:35.042Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T06:59:35.051Z"}
+{"level":"info","message":"sgarkhadka","timestamp":"2023-03-11T06:59:59.657Z"}
+{"level":"info","message":"sgarkhadka","timestamp":"2023-03-11T07:00:01.290Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:03:26.200Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:03:26.211Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:03:44.513Z"}
+{"level":"error","message":"does not matches","timestamp":"2023-03-11T07:03:44.514Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:04:39.047Z"}
+{"level":"error","message":"does not matches","timestamp":"2023-03-11T07:04:39.047Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:04:44.648Z"}
+{"level":"error","message":"does not matches","timestamp":"2023-03-11T07:04:44.648Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:04:44.675Z"}
+{"level":"error","message":"does not matches","timestamp":"2023-03-11T07:04:44.675Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:05:23.420Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:05:37.447Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:06:45.813Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:06:45.824Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:07:03.758Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:07:07.231Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:08:17.816Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:08:19.480Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:09:39.162Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:09:39.172Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:10:22.579Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:10:22.589Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:10:40.147Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:11:22.588Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:33:46.981Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:33:46.993Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:33:59.292Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:33:59.303Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:36:35.504Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:36:35.513Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:36:40.843Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:40:38.653Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:40:38.664Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:41:07.341Z"}
+{"level":"error","message":"does not matches","timestamp":"2023-03-11T07:41:07.344Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:42:00.146Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:42:00.156Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:42:04.593Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:42:04.602Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:42:16.871Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:42:20.228Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:42:42.886Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:45:14.971Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:45:14.981Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:45:24.586Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:45:24.597Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:45:54.459Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:45:54.469Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:47:18.227Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:47:18.238Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:50:43.746Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:50:43.756Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:51:14.912Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:51:14.922Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:51:27.987Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:53:03.283Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:53:03.293Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:53:11.836Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:53:11.846Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:53:15.700Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:54:10.338Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:55:01.009Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:55:01.019Z"}
+{"level":"info","message":"prajwol123","timestamp":"2023-03-11T07:55:18.609Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T07:56:42.676Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T07:56:42.688Z"}
+{"level":"info","message":"sgarkhadka","timestamp":"2023-03-11T07:56:54.581Z"}
+{"level":"info","timestamp":"2023-03-11T07:56:54.591Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T08:09:11.283Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T08:09:11.294Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-03-11T08:13:03.879Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-03-11T08:13:03.889Z"}
+{"level":"info","message":"sgarkhadka","timestamp":"2023-03-11T08:13:17.700Z"}
+{"level":"info","message":"sagar@gmail.com","timestamp":"2023-03-11T08:13:17.701Z"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNhZ2FyQGdtYWlsLmNvbSIsImlhdCI6MTY3ODUyMjM5N30.0iq8mL48M_Ch8yNc4aoMbTztoouoihJoeCR1Izv0KpM","timestamp":"2023-03-11T08:13:17.704Z"}
