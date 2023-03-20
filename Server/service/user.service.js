@@ -3,6 +3,7 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { Database } from "../Database/database.js";
 import Logger from "../Controller/Logger.js";
+import {generateToken} from "../Middleware/Auth.js";
 const Accesskey="SecretAccessKey";
 const RefreshKey="SecretRefreshKey";
 
@@ -45,20 +46,21 @@ Database.query(q1,(err,res)=>{
     else{
         Logger.info(res[0].password);
         if(res[0].password===password){
-         const user={
-          email:email,
-          firstName:res[0].firstName
-         }
-         Logger.info(user.email);
-       const accessToken=jwt.sign(user,Accesskey);
-       if(accessToken==undefined){
+        const  user={
+            email:email,
+            firstName:res[0].firstName
+           }
+           Logger.info(user.email)
+         const Token= generateToken(user);
+       if(Token==undefined){
         reject();
        }
-            resolve ({"status":"200","token": accessToken});
+            resolve ({"status":"200","token":Token,"firstName":user.firstName});
         }
         else{
             Logger.error("does not matches");
-            return {status:200};
+           
+            return {status:400};
         }
     }
 })

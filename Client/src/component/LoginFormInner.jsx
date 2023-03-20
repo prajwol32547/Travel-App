@@ -1,8 +1,12 @@
 import React,{useRef} from 'react';
 import {Link} from 'react-router-dom';
 import Axios from 'axios';
+import { useNavigate } from 'react-router-dom'
+
 
 function LoginFormInner() {
+  const navigate=useNavigate();
+
   const emailRef=useRef(null);
   const pwRef=useRef(null);
   const handleLogin=(e)=>{
@@ -14,6 +18,10 @@ function LoginFormInner() {
     password
    }).then((res)=>{
     console.log(res);
+    localStorage.setItem('jwtToken',res.data.message);
+    localStorage.setItem('fname', res.data.firstName);
+    navigate('/');
+  
    }).catch((err)=>{
     console.log(err);
     alert(err);

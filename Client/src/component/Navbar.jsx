@@ -2,8 +2,13 @@ import React from 'react'
 import img1 from '../assets/logo white.png';
 import {Link} from 'react-router-dom';
 
-function Navbar() {
-  const isLoggedIn=false;
+function Navbar(props) {
+  
+  const logout=async()=>{
+   await localStorage.removeItem('jwtToken');
+   await localStorage.removeItem('fname');
+   window.location.href = '/';
+  }
   return (
     <div className='container' style={{maxHeight:'100px'}}>
         <nav class="navbar navbar-expand-lg navbar-light ">
@@ -20,15 +25,18 @@ function Navbar() {
         <li class="nav-item">
           <a class="nav-link text-white font-weight-bold"style={{height:"36",margin:"10px"}} href="#">NPR</a>
         </li>
-        {isLoggedIn===true?"":
+        {props.status===false||props.status===null?
         <li class="nav-item">
           <Link className="nav-link text-white font-weight-bold"style={{height:"36",margin:"10px"}} to="/login">Login</Link>
-        </li>}
-        {isLoggedIn===false?"":
+        </li>:""}
+        {props.status===true&&props.status!=null?
         <li class="nav-item">
-          <Link className="nav-link text-white font-weight-bold"style={{height:"36",margin:"10px"}} to="/login">Hello, Prajwol</Link>
-        </li>}
-       
+          <Link className="nav-link text-white font-weight-bold"style={{height:"36",margin:"10px"}} to="/login">Hello, {props.name}</Link>
+        </li>:""}
+        {props.status===true&&props.status!=null?
+        <li class="nav-item">
+          <button onClick={logout}>Log out</button>
+        </li>:""}
       </ul>
      
     </div>

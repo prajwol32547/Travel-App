@@ -40,7 +40,11 @@ try{
 const LoginStatus = await userLoginService(email, password);
 if(LoginStatus.status==="200"){
   Logger.info(LoginStatus.token);
-    res.status(200).send(LoginStatus.token);
+    res.cookie("jwtToken",LoginStatus.token,{
+      expires:new Date(Date.now()+300),httpOnly:true
+    });
+   const data= {'message':LoginStatus.token, 'firstName':LoginStatus.firstName}
+    res.status(200).json(data);
 }
 else if(LoginStatus.status===400){
     res.status(400).send("Login problem, please try again later");
