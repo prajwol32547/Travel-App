@@ -1,0 +1,6 @@
+{
+    "prettier.singleAttributePerLine": false,
+    "prettier.withNodeModules": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.useTabs": true
+}
