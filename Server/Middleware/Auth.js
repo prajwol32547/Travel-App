@@ -12,13 +12,16 @@ export const generateToken = async (data) => {
 	Logger.info(userData.email);
 	console.log(userData.email);
 	try {
-		const accessToken = await jwt.sign(userData, AccessKey);
+		let expiration = 10;
+		const accessToken = await jwt.sign(userData, AccessKey, {
+			expiresIn: expiration,
+		});
 		const refreshToken = await generateRefreshToken(userData);
 		console.log(refreshToken, accessToken);
 		return { accessToken, refreshToken };
 	} catch (err) {
 		Logger.error(err);
-		return null;
+		// return null;
 	}
 };
 
@@ -41,7 +44,7 @@ export const authenticateUser = (req, res, next) => {
 
 	jwt.verify(token, AccessKey, (err, userData) => {
 		if (err) {
-			return res.status(400).send("Error in verifying access token");
+			return res.status(403).send("Error in verifying access token");
 		} else {
 			req.user = userData;
 			next();

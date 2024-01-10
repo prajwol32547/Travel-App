@@ -64,3 +64,68 @@
 {"level":"info","message":"surya@gmail.com","timestamp":"2023-12-18T02:35:22.328Z"}
 {"level":"info","message":"surya@gmail.com","timestamp":"2023-12-18T02:35:22.329Z"}
 {"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6IlN1cnlhIiwiaWF0IjoxNzAyODY2OTIyfQ.-U87f6nabmyUDPkpvez17G3Qavri5f7CfsEyEpUwCxA","timestamp":"2023-12-18T02:35:22.354Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-19T03:16:14.674Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-19T03:16:14.694Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-19T03:23:17.227Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-19T03:23:17.243Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-19T03:23:59.909Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-19T03:23:59.927Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-24T10:31:56.623Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-24T10:31:56.667Z"}
+{"level":"info","message":"Surya@123","timestamp":"2023-12-24T10:36:12.634Z"}
+{"level":"error","message":"does not matches","timestamp":"2023-12-24T10:36:12.636Z"}
+{"level":"info","message":"Surya@123","timestamp":"2023-12-24T10:36:16.504Z"}
+{"level":"error","message":"does not matches","timestamp":"2023-12-24T10:36:16.505Z"}
+{"level":"info","message":"Surya@123","timestamp":"2023-12-24T10:36:33.293Z"}
+{"level":"error","message":"does not matches","timestamp":"2023-12-24T10:36:33.293Z"}
+{"level":"info","message":"Surya@123","timestamp":"2023-12-24T10:37:03.236Z"}
+{"level":"info","message":"surya@gmail.com","timestamp":"2023-12-24T10:37:03.237Z"}
+{"level":"info","message":"surya@gmail.com","timestamp":"2023-12-24T10:37:03.237Z"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6IlN1cnlhIiwiaWF0IjoxNzAzNDE0MjIzfQ.WUiARJ9DoMPmReYTBUzs4fOHD6L_w932gluCOaw0_IU","timestamp":"2023-12-24T10:37:03.243Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-24T10:44:37.704Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-24T10:44:37.742Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-24T10:45:14.484Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-24T10:45:14.496Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-24T10:45:25.091Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-24T10:45:25.103Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-31T03:27:21.551Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-31T03:27:21.576Z"}
+{"level":"info","message":"Surya@123","timestamp":"2023-12-31T03:36:46.723Z"}
+{"level":"info","message":"surya@gmail.com","timestamp":"2023-12-31T03:36:46.724Z"}
+{"level":"info","message":"surya@gmail.com","timestamp":"2023-12-31T03:36:46.724Z"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6IlN1cnlhIiwiaWF0IjoxNzAzOTkzODA2fQ.SPYVUUkGp5StQOQYOZqET4FBye_cVgcNJBSq6DU-oA8","timestamp":"2023-12-31T03:36:46.735Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-31T03:45:51.973Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-31T03:45:51.984Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-31T04:27:44.070Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-31T04:27:44.080Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-31T04:28:25.442Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-31T04:28:25.454Z"}
+{"level":"info","message":"Surya@123","timestamp":"2023-12-31T04:28:53.071Z"}
+{"level":"info","message":"surya@gmail.com","timestamp":"2023-12-31T04:28:53.071Z"}
+{"level":"info","message":"surya@gmail.com","timestamp":"2023-12-31T04:28:53.072Z"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6IlN1cnlhIiwiaWF0IjoxNzAzOTk2OTMzLCJleHAiOjE3MDM5OTY5NDN9._ZdbDGe3ocup4_t6-xn3cSLlDTiZiPNiHovMFs1bZm8","timestamp":"2023-12-31T04:28:53.082Z"}
+{"level":"info","message":"running at 4000","timestamp":"2023-12-31T04:48:29.773Z"}
+{"level":"info","message":"connected to db","timestamp":"2023-12-31T04:48:29.786Z"}
+{"level":"info","message":"running at 4000","timestamp":"2024-01-03T16:59:25.370Z"}
+{"level":"info","message":"connected to db","timestamp":"2024-01-03T16:59:25.610Z"}
+{"level":"info","message":"Surya@123","timestamp":"2024-01-03T17:08:28.870Z"}
+{"level":"error","message":"does not matches","timestamp":"2024-01-03T17:08:28.871Z"}
+{"level":"info","message":"Surya@123","timestamp":"2024-01-03T17:09:18.322Z"}
+{"level":"error","message":"does not matches","timestamp":"2024-01-03T17:09:18.323Z"}
+{"level":"info","message":"\"Hari, Kumar\",hari@gmail.com,Kumar@123\"  ","timestamp":"2024-01-03T17:10:00.917Z"}
+{"level":"info","message":"Inserted successfully","timestamp":"2024-01-03T17:10:00.957Z"}
+{"level":"info","message":"User registration validated","timestamp":"2024-01-03T17:10:00.958Z"}
+{"level":"info","message":"running at 4000","timestamp":"2024-01-03T17:12:50.930Z"}
+{"level":"info","message":"connected to db","timestamp":"2024-01-03T17:12:50.941Z"}
+{"level":"info","message":"Surya@123","timestamp":"2024-01-03T17:13:06.181Z"}
+{"level":"info","message":"Surya@gmail.com","timestamp":"2024-01-03T17:13:06.182Z"}
+{"level":"info","message":"Surya@gmail.com","timestamp":"2024-01-03T17:13:06.182Z"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IlN1cnlhQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6IlN1cnlhIiwiaWF0IjoxNzA0MzAxOTg2LCJleHAiOjE3MDQzMDE5OTZ9.S4WVbai2ZwwcbdOw8pg21YrYVfJwNJgQvlgSJpf0qec","timestamp":"2024-01-03T17:13:06.194Z"}
+{"level":"info","message":"Surya@123","timestamp":"2024-01-03T17:15:41.541Z"}
+{"level":"info","message":"surya@gmail.com","timestamp":"2024-01-03T17:15:41.541Z"}
+{"level":"info","message":"surya@gmail.com","timestamp":"2024-01-03T17:15:41.542Z"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cnlhQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6IlN1cnlhIiwiaWF0IjoxNzA0MzAyMTQxLCJleHAiOjE3MDQzMDIxNTF9.k_-7FuQg3fbIGK-jFIAO0nPHhwBKY5-IJtqK7_hwIEc","timestamp":"2024-01-03T17:15:41.548Z"}
+{"level":"info","message":"Surya@123","timestamp":"2024-01-03T18:27:35.995Z"}
+{"level":"info","message":"Surya@gmail.com","timestamp":"2024-01-03T18:27:35.995Z"}
+{"level":"info","message":"Surya@gmail.com","timestamp":"2024-01-03T18:27:35.997Z"}
+{"level":"info","message":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IlN1cnlhQGdtYWlsLmNvbSIsImZpcnN0TmFtZSI6IlN1cnlhIiwiaWF0IjoxNzA0MzA2NDU1LCJleHAiOjE3MDQzMDY0NjV9.-nvUhQEZtwXqLnjsfl9dtu6fanrON-5pjGtHoWPub1M","timestamp":"2024-01-03T18:27:36.011Z"}

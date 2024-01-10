@@ -1,30 +1,27 @@
 import React, { useState } from "react";
 import HotelData from "../assets/HotelData";
 import RentCard from "./RentCard";
-import { Navigator, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function HotelList() {
 	const navigate = useNavigate();
-	const [dataVal, setDataVal] = useState([]);
-	const [price, setPrice] = useState();
-	const handleDisplay = (data) => {
-		setDataVal([data]);
 
-		navigate("/display");
+	const handleDisplay = (data) => {
+		navigate(`/display/${data}`);
 	};
+
 	return (
 		<>
-			{HotelData.map((currEle) => {
-				return (
-					<RentCard
-						image={currEle.image}
-						description={currEle.description}
-						title={currEle.title}
-						review={currEle.review}
-						func={handleDisplay}
-					/>
-				);
-			})}
+			{HotelData.map((currEle) => (
+				<RentCard
+					key={currEle.id} // Add a key prop for each mapped element
+					image={currEle.image}
+					description={currEle.description}
+					title={currEle.title}
+					review={currEle.review}
+					func={() => handleDisplay(currEle.id)} // Pass a function reference
+				/>
+			))}
 		</>
 	);
 }

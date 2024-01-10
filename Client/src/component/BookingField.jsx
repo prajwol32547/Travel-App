@@ -1,6 +1,15 @@
 import React from "react";
+import { postRequest } from "../Atom/AxiosReq";
+const bookingRequest = (id) => {
+	postRequest("http://localhost:4000/booking/hotelbook", {
+		id: id,
+		fromDate: document.getElementById("from_book").value,
+		toDate: document.getElementById("to_book").value,
+		email: "prajwol@gmail.com",
+	});
+};
 
-function BookingField() {
+function BookingField(props) {
 	return (
 		<div className="bg-light p-3">
 			<div className="d-flex flex-column flex-md-row justify-content-around mt-4">
@@ -32,6 +41,7 @@ function BookingField() {
 					type="button"
 					className="btn-success btn-md text-white text-center"
 					value="Book Now"
+					onClick={() => bookingRequest(props.id)}
 				/>
 			</div>
 		</div>

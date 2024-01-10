@@ -24,6 +24,9 @@ function LoginFormInner() {
 			})
 			.catch((err) => {
 				console.log(err);
+				if (err.statuscode == 500) {
+					alert("Sever Error");
+				}
 				alert(err);
 			});
 	};
