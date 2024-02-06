@@ -2,7 +2,7 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { Database } from "../Database/database.js";
 import Logger from "../Controller/Logger.js";
-import { generateToken } from "../Middleware/Auth.js";
+import { generateToken } from "../Middleware/Auth.middleware.js";
 const Accesskey = "SecretAccessKey";
 const RefreshKey = "SecretRefreshKey";
 
@@ -50,7 +50,7 @@ export const userLoginService = async (email, password) => {
 					Logger.info(user.email);
 					const Token = await generateToken(user);
 					Logger.info(Token.accessToken);
-					console.log(`Token.accessToken=${Token.accessToken}`);
+					console.log(`Token.accessToken=${Token.refreshToken}`);
 					if (Token === undefined) {
 						reject(403);
 					}
@@ -72,6 +72,33 @@ export const userLoginService = async (email, password) => {
 
 					return { status: 400 };
 				}
+			}
+		});
+	});
+};
+
+export const userRefreshService = (email) => {
+	return new Promise((resolve, reject) => {
+		const q1 = "SELECT * FROM usertab WHERE email=?";
+		Database.query(q1, [email], (err, res) => {
+			if (err) {
+				reject({ status: 403, message: "No user found" });
+			} else {
+				const RefreshToken = res[0].RefreshToken;
+				resolve({ status: 200, token: `${RefreshToken}` });
+			}
+		});
+	});
+};
+export const verifyUserService = (email) => {
+	return new Promise((resolve, reject) => {
+		const q1 = "SELECT * FROM usertab WHERE email=?";
+		Database.query(q1, [email], (res, err) => {
+			if (err) {
+				reject({ status: 403, message: "No user found" });
+			} else {
+				const { email, firstname } = res[0];
+				resolve({ email: email, firstname: firstname });
 			}
 		});
 	});

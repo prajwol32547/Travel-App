@@ -1,12 +1,27 @@
 import React from "react";
 import { postRequest } from "../Atom/AxiosReq";
-const bookingRequest = (id) => {
-	postRequest("http://localhost:4000/booking/hotelbook", {
-		id: id,
-		fromDate: document.getElementById("from_book").value,
-		toDate: document.getElementById("to_book").value,
-		email: "prajwol@gmail.com",
-	});
+const bookingRequest = async (id) => {
+	try {
+		const response = await postRequest(
+			"http://localhost:4000/booking/hotelbook",
+			{
+				id: id,
+				fromDate: document.getElementById("from_book").value,
+				toDate: document.getElementById("to_book").value,
+				email: localStorage.getItem("email"),
+				firstname: localStorage.getItem("fname"),
+			}
+		);
+	} catch (error) {
+		if (error.response) {
+			console.error("Server responded with an error:", error.response.data);
+			console.error("Status code:", error.response.status);
+		} else if (error.request) {
+			console.error("No response received from the server");
+		} else {
+			console.log(error.message);
+		}
+	}
 };
 
 function BookingField(props) {

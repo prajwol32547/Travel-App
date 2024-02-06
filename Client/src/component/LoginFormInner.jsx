@@ -20,6 +20,7 @@ function LoginFormInner() {
 				console.log(res);
 				localStorage.setItem("jwtToken", res.data.message);
 				localStorage.setItem("fname", res.data.firstName);
+				localStorage.setItem("email", `${email}`);
 				navigate("/");
 			})
 			.catch((err) => {

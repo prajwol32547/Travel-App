@@ -6,7 +6,6 @@ import { useParams } from "react-router-dom";
 
 function Display() {
 	const { id } = useParams();
-	console.warn(document.cookie);
 
 	return (
 		<div className="container-fluid m-0 p-0">

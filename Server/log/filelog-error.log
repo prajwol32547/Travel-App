@@ -1,7 +1,6 @@
-{"level":"error","message":"Error connecting to database","timestamp":"2023-12-18T02:11:42.816Z"}
-{"level":"error","message":"Error connecting to database","timestamp":"2023-12-18T02:12:51.776Z"}
-{"level":"error","message":"does not matches","timestamp":"2023-12-24T10:36:12.636Z"}
-{"level":"error","message":"does not matches","timestamp":"2023-12-24T10:36:16.508Z"}
-{"level":"error","message":"does not matches","timestamp":"2023-12-24T10:36:33.293Z"}
-{"level":"error","message":"does not matches","timestamp":"2024-01-03T17:08:28.871Z"}
-{"level":"error","message":"does not matches","timestamp":"2024-01-03T17:09:18.323Z"}
+
+{"level":"error","message":"Error connecting to database","timestamp":"2024-01-28T10:20:00.345Z"}
+{"level":"error","message":"Fetching error","timestamp":"2024-01-28T10:21:05.537Z"}
+{"level":"error","message":"Error connecting to database","timestamp":"2024-01-29T04:00:07.281Z"}
+{"level":"error","message":"Error connecting to database","timestamp":"2024-01-30T16:53:23.354Z"}
+{"level":"error","message":"Error connecting to database","timestamp":"2024-02-04T03:02:29.455Z"}

@@ -9,6 +9,7 @@ import Display from "./page/Display";
 import VerifyOtp from "./page/VerifyOtp";
 import Add from "./page/Add";
 import Admin from "./page/Admin";
+import UploadRoom from "./page/UploadRoom";
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 				<Route path="/verifyOtp" element={<VerifyOtp />} />
 				<Route path="/add" element={<Add />} />
 				<Route path="/admin" element={<Admin />} />
+				<Route path="/uploadRoom" element={<UploadRoom />} />
 			</Routes>
 		</BrowserRouter>
 	);

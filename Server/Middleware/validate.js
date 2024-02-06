@@ -51,14 +51,13 @@ export const validateLogin = async (req, res, next) => {
 		const LoginStatus = await userLoginService(email, password);
 		if (LoginStatus.status === "200") {
 			console.log(`LoginStatus.token==${LoginStatus.accessToken}`);
-			res.cookie("jwtToken", LoginStatus.accessToken, {
-				expires: new Date(Date.now() + 300),
-				httpOnly: true,
-			});
+
+			// Now you can use jwtToken as needed
 			const data = {
 				message: LoginStatus.accessToken,
 				firstName: LoginStatus.firstName,
 			};
+
 			res.status(200).json(data);
 		} else if (LoginStatus.status === 400) {
 			res.status(400).send("Login problem, please try again later");
